@@ -1,0 +1,1 @@
+Drobne ulepszenia wyglądu iPKONET. Usunięcie reklam, wytłuszczenie danych finansowych, usunięcie ozdobnych zaokrągleń z przycisków. Projekt dostępny na githubie: https://github.com/fringoo/userstyles-ipkonet-improved

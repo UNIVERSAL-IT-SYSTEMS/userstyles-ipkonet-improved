@@ -1,0 +1,69 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("ipkonet.pl") {
+  /* horizontal separators for side menu items*/
+  .b-top li {
+    border-bottom: solid 1px #EDEDED !important;
+  }
+
+  /* remove rounded corners form input fields */
+  select, input, textarea, option, radio {
+    border-radius: 0px !important;
+  }
+  
+  select, textarea {
+    min-width: 210px !important;
+  }
+
+  input {
+    min-width: 80px !important;
+  }
+
+  /* remove ads from right column and increase space in the middle
+  (for account information etc.) */
+  td.cd div.d {
+    display: none !important; /* this will free 170px*/
+  }
+
+  td.cd div.c {
+    width: 760px !important; /* 590px + 170px*/
+  }
+
+  .plainbutton {
+    border-radius: 0px 0px !important;
+  }
+
+  .default_button {
+    border-radius: 0px 0px !important;
+  }
+
+  /* distinguish between labels and values (e.g. for credit cards details) */
+  td.first {
+    font-weight: normal;
+  }
+
+  td.last {
+    font-weight: bold;
+  }
+
+  /* Make information about logout more visible (by setting table in 40:60 ratio instead of 70:30) */
+  #wrapper_after_logout > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1){
+    width: 40% !important;
+  }
+  #wrapper_after_logout > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2){
+    width: 60% !important;
+  }
+
+  /* Make 'Login' link more visible - transform it inot a button! :) */
+  #wrapper_after_logout > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > p:nth-child(4) > a:nth-child(1){
+    color: #FFF !important;
+    border: 0px solid #FFF !important;
+    position: relative !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    padding: 5px 8px 7px !important;
+    background-color: #CA171D !important;
+    width: 100px !important;
+    border-radius: 0px 0px !important;
+  }
+}

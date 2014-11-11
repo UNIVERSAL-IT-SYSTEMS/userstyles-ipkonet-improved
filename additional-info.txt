@@ -1,0 +1,8 @@
+Wersja 1 - 11.11.2014
+* Usunięcie reklam wyświetlanych z prawej strony serwisu, zwiększenie obszaru na wyświetlane dane o rachunkach
+* Dodanie poziomych linii oddzielających pozycje menu
+* Wyłączenie zaokrągleń przycisków
+* Wyrównanie pól wyboru (select)
+* pogrubienie fontu, którym wyświetlane są dane (by odróżniały się od opisów pól)
+
+Cdn. (w ramach wolnego czasu) 
